@@ -33,7 +33,6 @@ h1{
 }
 
 .nav-link{
-    font-family:"Montserrat-Light"
     font-size:1.2rem;
 }
 
@@ -45,4 +44,54 @@ h1{
     width: 60%;
     transform: rotate(25deg);
     margin-left: 15%;
+}
+
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+        text-align: center;
+        padding: 5%;
+}
+h3{
+    font-family: "Ubuntu";
+    font-weight: Bold;
+}
+p{
+    color: #8F8F8F;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family:"Ubuntu";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
